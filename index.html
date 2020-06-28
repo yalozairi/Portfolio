@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link href="styles.css" rel="stylesheet" type = "text/css"/>
+
+  </head>
+  <body >
+    <h1 style="margin-top: 10px;" class="big-heading">Yousif AlOzairi
+    </h1>
+    <h3 class="welcome">Welcome to my Portfolio!</h3>
+    <div class="container">
+        <div class="row">
+         <div class="col-12">
+    <p style="color: royalblue;">I am a 16-year old highschool student, future programmer, living in Kuwait! I was born in Aberdeen on the 24th of January 2004. I have three siblings -an older sister, a younger sister and a younger brother! Soon after my birth, we moved to Newcastle Upon Tyne, England, where I spent most of my childhood. Until I was about 10 years old -in August of 2014- I grew up and gained various life skills in Newcastle. However, by August of 2014, we finally moved to our home country, Kuwait, in which we have remained ever since!</p>
+</div>
+</div>
+ </div>
+    <h2 style="margin-top: 30px;">Look below to learn more about me!</h2>
+    <div class="container">
+        <div class="row">
+         <div class="col-12">
+        <hr style="height: 7px; background-color: rgb(0, 136, 129);">
+     </div>
+    </div>
+     </div>
+    <div style="padding-top: 10px" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h2>Take a look at some of my Interests:</h2>
+            <ul>
+                <li style="color: olivedrab;">Nature</li>
+                <img src="Nature.JPG"class="random-image"/>
+                <h6 style="color: olivedrab;">I love Nature! Hiking, sceneries, walks, gardens, and more are my favorites!</h6>
+                <li class="ocean">Ocean</li>
+                <img src="Ocean.JPG"class="random-image"/>
+                <h6 style="color: cadetblue;">I love the Ocean, going to beaches, watersports, and just about any other water-related activity!</h6>
+                <li style="color: rebeccapurple;">Music</li>
+                <img src="Music.JPG"class="random-image"/>
+                <h6 style="color: rebeccapurple;">Scroll down for some of my music recommendations!</h6>
+                <li style="color: orange;">Technology</li>
+                <img src="Technology.gif"class="random-image"/>
+                <h6 style="color: orange;">I have been interested with technology my entire life and look to learn more!</h6>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h2>Here are some of my Hobbies:</h2>
+    <ol class = "hobbies">
+<li style="color: brown;">Video Games</li>
+<img src="Video Games.jpg"class="random-image"/>
+                <h6 style="color: brown;">Video Games are the best! Ever since I was a kid, I have loved Nintendo games the most!</h6>
+<li style="color: mediumseagreen;">Programming :)</li>
+<img src="Programming.png"class="random-image"/>
+                <h6 style="color: mediumseagreen;">At this point I am clearly a programming professional :)</h6>
+<li style="color: rgb(21, 181, 245);">Learning</li>
+<img src="learning.jpg"class="random-image"/>
+                <h6 style="color: rgb(21, 181, 245);">Surprisingly, I am actually quite interested in learning new things and new skills but also general learning with education in school!</h6>
+    <ol>
+          </div>
+          
+        </div>
+      </div>
+      <div style="padding-top: 10px" class="container">
+        <div class="row">
+         <div class="col-12">
+        <hr style="height: 7px; background-color: rgb(0, 136, 129);">
+     </div>
+    </div>
+     </div>
+
+      <div style="padding-top: 10px" class="container">
+        <div class="row">
+          <div class="col">
+            <h2 style="padding-bottom: 10px;">Here's a Passport of everywhere I've been:</h2>
+            <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: auto; height: 450px;"></div>
+
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#ffffff00",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "CY",
+		"showAsSelected": true
+	},
+	{
+		"id": "NL",
+		"showAsSelected": true
+	},
+	{
+		"id": "NO",
+		"showAsSelected": true
+	},
+	{
+		"id": "TR",
+		"showAsSelected": true
+	},
+	{
+		"id": "GB",
+		"showAsSelected": true
+	},
+	{
+		"id": "CA",
+		"showAsSelected": true
+	},
+	{
+		"id": "KY",
+		"showAsSelected": true
+	},
+	{
+		"id": "JM",
+		"showAsSelected": true
+	},
+	{
+		"id": "MX",
+		"showAsSelected": true
+	},
+	{
+		"id": "US",
+		"showAsSelected": true
+	},
+	{
+		"id": "BH",
+		"showAsSelected": true
+	},
+	{
+		"id": "IN",
+		"showAsSelected": true
+	},
+	{
+		"id": "KW",
+		"showAsSelected": true
+	},
+	{
+		"id": "NP",
+		"showAsSelected": true
+	},
+	{
+		"id": "OM",
+		"showAsSelected": true
+	},
+	{
+		"id": "QA",
+		"showAsSelected": true
+	},
+	{
+		"id": "SA",
+		"showAsSelected": true
+	},
+	{
+		"id": "AE",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#B4B4B7",
+colorSolid : "#84ADE9",
+selectedColor : "rgb(0, 136, 129)",
+outlineColor : "#666666",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+
+
+            
+
+<div style="padding-top: 10px" class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3">
+      <ul style="padding-bottom: 10px;" class = "hobbies">
+            <li class="continent"style="color: brown;">Asia:</li>
+            <li style="color: brown;">Bahrain</li>
+            <li style="color: brown;">India</li>
+            <li style="color: brown;">Kuwait</li>
+            <li style="color: brown;">Nepal</li>
+            <li style="color: brown;">Oman</li>
+            <li style="color: brown;">Qatar</li>
+            <li style="color: brown;">Saudi Arabia</li>
+            <li style="color: brown;">United Arab Emirates</li>
+</ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3">
+        <ul style="padding-bottom: 10px;" class = "hobbies">
+            <li class="continent"style="color: mediumseagreen;">Central America:</li>
+            <li style="color: mediumseagreen;">Bahamas</li>
+            <li style="color: mediumseagreen;">Cayman Islands</li>
+            <li style="color: mediumseagreen;">Jamaica</li>
+
+            </ul>
+
+
+
+      </div>
+    
+    <div class="col-12 col-sm-6 col-md-3">
+        <ul style="padding-bottom: 10px;" class = "hobbies">
+            <li class="continent"style="color: rgb(21, 181, 245);">Europe:</li>
+            <li style="color: rgb(21, 181, 245);">Cyprus</li>
+            <li style="color: rgb(21, 181, 245);">France</li>
+            <li style="color: rgb(21, 181, 245);">Netherlands</li>
+            <li style="color: rgb(21, 181, 245);">Norway</li>
+            <li style="color: rgb(21, 181, 245);">Turkey</li>
+            <li style="color: rgb(21, 181, 245);">United Kingdom</li>
+         </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+            <ul style="padding-bottom: 10px;" class = "hobbies">
+                <li class="continent"style="color: rgb(130, 106, 139);">North America:</li>
+                <li style="color: rgb(130, 106, 139);">Canada</li>
+                <li style="color: rgb(130, 106, 139);">United States of America</li>
+                <li style="color: rgb(130, 106, 139);">Mexico</li>
+
+               </ul>
+
+
+               
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div style="padding-top: 10px" class="container">
+    <div class="row">
+     <div class="col-12">
+    <hr style="height: 7px; background-color: rgb(0, 136, 129);">
+ </div>
+</div>
+ </div>
+  
+      
+      <div style="padding-top: 10px" class="container">
+        <div class="row">
+          <div class="col">
+            
+            <h2 style="padding-bottom: 10px;">Lastly, enjoy some of my favorite music!</h2>
+<h5>My top songs:</h5>
+<div style="padding-top: 10px" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+<div id="carouselExampleCaptions" class="carousel  slide" data-interval="false" data-ride="carousel" data-pause="hover">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/inXZkGe7NBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
+        <div class="carousel-caption">
+          <h5">London in the Spring - Passeneger</h5>
+          <p class="carouselSmallText">Passenger is by far my #1 artist with a great variety of amazing and calming music</p>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/V-wkjlL-Mfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h5>Doctor Please - Jack Garratt</h5>
+          <p class="carouselSmallText">Jack Garratt has just released his second album 'Love Death and Dancing' after four years and it has come out as an one of my favorites  with an overall message about mental health</p>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/kcV1iuKTC4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h5>Run the World!!! - Dayglow</h5>
+          <p class="carouselSmallText">Day glow is a relatively new artist with only one album yet his songs are incredible, happy songs -and this song is no exception</p>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/yFw41zKqMTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h5>Still Feel (w/Orchestra) - Half Alive</h5>
+          <p class="carouselSmallText">Half Alive don't have many songs yet all of their songs are incredible. This song is a reimagining of one of their top songs -this time with an Orchestra!</p>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/goyq7GDYEkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h5>Orphans - Coldplay</h5>
+          <p class="carouselSmallText">While Coldplay may seem popular, I feel that their latest album 'Everyday Life' is overlooked and deserves more recognition as it expresses a wonderful message throughout</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/qTOF23LpqS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h6>The Key to Life on Earth - Declan McKenna</h6>
+          <p style ="font-size: smaller;">Declan McKenna has a few really great songs with global messages surrounding them but I can see why some may not like his music</p>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/n60shfb_u7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carousel-caption">
+          <h5>The Way I Feel - Keane</h5>
+          <p class="carouselSmallText">Lastly, I feel that this artist simply puts out incredible music and has been around for quite a long time -so there's lots to pick from</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+      <ol class = "hobbies" style="padding-top: 10px;">
+        <li style="color: rgb(207, 10, 10);">London in the Spring - Passeneger</li>
+        <li style="color: rgb(216, 108, 8);">Doctor Please - Jack Garratt</li>
+        <li style="color: rgb(209, 172, 9);">Run the World!!! - Dayglow</li>
+        <li style="color: mediumseagreen;">Still Feel (w/Orchestra) - Half Alive</li>
+        <li style="color: rgb(21, 181, 245);">Orphans - Coldplay</li>
+        <li style="color: rgb(110, 0, 189);">The Key to Life on Earth - Declan McKenna</li>
+        <li style="color: purple;">The Way I Feel - Keane</li>
+            <ol>
+</div>          
+</div>
+</div>
+
+<button class="button"; onclick="darkLightMode()">Tap me to change themes!</button>
+  
+  <script>
+    function darkLightMode() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

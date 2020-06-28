@@ -1,0 +1,103 @@
+.carouselSmallText {
+  font-size: small;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.big-heading {
+  color: olivedrab;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.kebab-case {
+  color: olivedrab;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  font-weight: bold;
+}
+
+h1,
+p,
+h2 {
+  text-align: center;
+}
+
+span {
+  color: teal;
+}
+
+.gram {
+  color: tomato;
+  font-size: x-small;
+}
+
+.random-image {
+  /* width: 350px; */
+  display: block;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 40%;
+  border: 5px solid rgb(0, 136, 129);
+  border-radius: 8px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 7px;
+  color: rgb(115, 167, 12);
+}
+
+.ocean {
+  color: cadetblue;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  padding: 10px 24px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  color: white;
+}
+
+.continent {
+  font-weight: bold;
+  font-size: large;
+}
+
+.flex-box {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-box #myCarousel {
+  flex: 1 1 50%;
+}
+
+.flex-box #desc {
+  flex: 1 1 50%;
+}
